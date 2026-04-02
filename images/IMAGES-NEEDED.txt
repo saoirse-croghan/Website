@@ -21,7 +21,15 @@ children-05.jpg            → Toddler girl in denim overalls, hand raised high 
 wall-art-01.jpg            → Framed print in living room (couple in fall forest, single frame)    Wall Art section
 wall-art-02.jpg            → Triptych canvas wall art (maternity couple) above sofa               Wall Art section
 wall-art-03.jpg            → Single large canvas (family by lake) above sofa                     Wall Art section / About
-about-photographer.jpg     → A photo of YOU, the photographer (not yet provided — needed!)        About page
+about-photographer.jpg     → YOUR PHOTOGRAPHER PORTRAIT (see options below — choose one)         About page
+
+  ABOUT PAGE PORTRAIT OPTIONS (you provided 4):
+  ★ RECOMMENDED → Cream double-breasted suit, standing, gold art deco background (most on-brand)
+    OR: Cream blazer seated, elegant cream/gold room (also excellent)
+  ✦ Fun/social use → Orange suit with camera raised (bold personality — great for Instagram)
+  ✦ Fun/social use → Teal suit, falling off chair (playful — great for social behind-the-scenes)
+
+  Rename your chosen image to: about-photographer.jpg
 
 NOTES:
 - JPG format preferred; PNG also works
