@@ -685,6 +685,9 @@ h1, h2, h3, h4 {
 .stagger.visible > *:nth-child(2) { opacity:1; transform:none; transition-delay: 0.14s;  }
 .stagger.visible > *:nth-child(3) { opacity:1; transform:none; transition-delay: 0.28s;  }
 .stagger.visible > *:nth-child(4) { opacity:1; transform:none; transition-delay: 0.42s;  }
+.stagger.visible > *:nth-child(5) { opacity:1; transform:none; transition-delay: 0.56s;  }
+
+.experience__steps--five { grid-template-columns: repeat(5,1fr); gap: 36px; }
 
 
 /* ============================================
@@ -712,6 +715,7 @@ h1, h2, h3, h4 {
   .hero__scroll { right: 36px; }
   .footer__top { grid-template-columns: 1fr 1fr; gap: 44px; }
   .brand-statement__inner { grid-template-columns: 1fr; gap: 28px; }
+  .experience__steps--five { grid-template-columns: repeat(3,1fr); }
 }
 
 @media (max-width: 900px) {
