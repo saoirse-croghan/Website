@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Noble Boutique Photography</title>
+  <meta name="description" content="View our portfolio of newborn, maternity, and family portrait photography. Heirloom fine art prints for Northern California families." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ═══════════════════════════════════════════ -->
+  <nav class="nav nav--scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Noble Boutique Photography</a>
+      <ul class="nav__links">
+        <li><a href="gallery.html"      class="nav__link">Portfolio</a></li>
+        <li><a href="about.html"        class="nav__link">About</a></li>
+        <li><a href="testimonials.html" class="nav__link">Kind Words</a></li>
+        <li><a href="contact.html"      class="nav__link nav__link--cta">Begin Your Story</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ MOBILE MENU ══════════════════════════════════════════ -->
+  <div class="mobile-menu" id="mobileMenu">
+    <span class="mobile-menu__close">Close</span>
+    <ul class="mobile-menu__links">
+      <li><a href="gallery.html"      class="mobile-menu__link">Portfolio</a></li>
+      <li><a href="about.html"        class="mobile-menu__link">About</a></li>
+      <li><a href="testimonials.html" class="mobile-menu__link">Kind Words</a></li>
+      <li><a href="contact.html"      class="mobile-menu__link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ═══ PAGE HERO ════════════════════════════════════════════ -->
+  <header class="page-hero" style="margin-top: var(--nav-h);">
+    <div class="page-hero__bg" style="background-image: url('https://picsum.photos/seed/noble-galhero/1920/800');"></div>
+    <div class="page-hero__content">
+      <span class="eyebrow page-hero__eyebrow">Selected Work</span>
+      <h1 class="page-hero__title">The Portfolio</h1>
+    </div>
+  </header>
+
+  <!-- ═══ GALLERY ══════════════════════════════════════════════ -->
+  <section class="gallery-section">
+    <div class="container">
+
+      <!-- Filter -->
+      <div class="gallery-filter fade-up">
+        <button class="filter-btn active" data-filter="all">All Work</button>
+        <button class="filter-btn" data-filter="newborn">Newborn</button>
+        <button class="filter-btn" data-filter="maternity">Maternity</button>
+        <button class="filter-btn" data-filter="family">Family</button>
+      </div>
+
+      <!-- Grid -->
+      <div class="gallery-grid">
+
+        <!-- Newborn -->
+        <div class="gallery-item" data-category="newborn">
+          <img src="https://picsum.photos/seed/nb01/800/1100" alt="Newborn portrait" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Newborn</span></div>
+        </div>
+        <div class="gallery-item" data-category="newborn">
+          <img src="https://picsum.photos/seed/nb02/800/900" alt="Newborn detail" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Newborn</span></div>
+        </div>
+        <div class="gallery-item" data-category="newborn">
+          <img src="https://picsum.photos/seed/nb03/800/1050" alt="Newborn lifestyle" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Newborn</span></div>
+        </div>
+        <div class="gallery-item" data-category="newborn">
+          <img src="https://picsum.photos/seed/nb04/800/800" alt="Newborn wrapped" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Newborn</span></div>
+        </div>
+        <div class="gallery-item" data-category="newborn">
+          <img src="https://picsum.photos/seed/nb05/800/1100" alt="Newborn studio" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Newborn</span></div>
+        </div>
+
+        <!-- Maternity -->
+        <div class="gallery-item" data-category="maternity">
+          <img src="https://picsum.photos/seed/mat01/800/1200" alt="Maternity portrait" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Maternity</span></div>
+        </div>
+        <div class="gallery-item" data-category="maternity">
+          <img src="https://picsum.photos/seed/mat02/800/900" alt="Maternity outdoor" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Maternity</span></div>
+        </div>
+        <div class="gallery-item" data-category="maternity">
+          <img src="https://picsum.photos/seed/mat03/800/1100" alt="Maternity couple" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Maternity</span></div>
+        </div>
+        <div class="gallery-item" data-category="maternity">
+          <img src="https://picsum.photos/seed/mat04/800/950" alt="Maternity golden hour" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Maternity</span></div>
+        </div>
+
+        <!-- Family -->
+        <div class="gallery-item" data-category="family">
+          <img src="https://picsum.photos/seed/fam01/800/900" alt="Family portrait outdoor" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Family</span></div>
+        </div>
+        <div class="gallery-item" data-category="family">
+          <img src="https://picsum.photos/seed/fam02/800/1100" alt="Family lifestyle" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Family</span></div>
+        </div>
+        <div class="gallery-item" data-category="family">
+          <img src="https://picsum.photos/seed/fam03/800/800" alt="Family with newborn" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Family</span></div>
+        </div>
+        <div class="gallery-item" data-category="family">
+          <img src="https://picsum.photos/seed/fam04/800/1050" alt="Family candid" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Family</span></div>
+        </div>
+        <div class="gallery-item" data-category="family">
+          <img src="https://picsum.photos/seed/fam05/800/900" alt="Family at home" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Family</span></div>
+        </div>
+        <div class="gallery-item" data-category="family">
+          <img src="https://picsum.photos/seed/fam06/800/1100" alt="Family golden hour" class="gallery-item__img" loading="lazy" />
+          <div class="gallery-item__overlay"><span class="gallery-item__label">Family</span></div>
+        </div>
+
+      </div><!-- /gallery-grid -->
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <span class="lightbox__close">Close &times;</span>
+      <img src="" alt="" class="lightbox__img" />
+    </div>
+  </section>
+
+  <!-- ═══ CTA STRIP ════════════════════════════════════════════ -->
+  <section class="testimonial-single section" style="background: var(--cream-dark);">
+    <div class="container--narrow">
+      <div class="fade-up" style="text-align:center;">
+        <span class="eyebrow" style="margin-bottom:24px;">Ready to Create Yours?</span>
+        <div class="gold-rule"></div>
+        <h2 style="font-family:var(--font-serif); font-size:clamp(1.8rem,3.5vw,2.8rem); font-weight:300; font-style:italic; margin:28px 0 40px; color:var(--charcoal);">
+          Every image in this portfolio<br>began with a single conversation.
+        </h2>
+        <a href="contact.html" class="btn btn--gold">Begin Your Story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <p class="footer__brand-name">Noble Boutique Photography</p>
+          <p class="footer__tagline">Transforming Northern California homes with heirloom art since the first shutter click.</p>
+          <div class="footer__social">
+            <a href="https://instagram.com/nobleboutiquephotography" target="_blank" rel="noopener" class="footer__social-link">Instagram</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer__col-title">Explore</p>
+          <ul class="footer__links">
+            <li><a href="gallery.html"      class="footer__link">Portfolio</a></li>
+            <li><a href="about.html"        class="footer__link">About</a></li>
+            <li><a href="testimonials.html" class="footer__link">Kind Words</a></li>
+            <li><a href="contact.html"      class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Specialties</p>
+          <ul class="footer__links">
+            <li><span class="footer__link">Newborn</span></li>
+            <li><span class="footer__link">Maternity</span></li>
+            <li><span class="footer__link">Family</span></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Location</p>
+          <ul class="footer__links">
+            <li><span class="footer__link">Folsom, California</span></li>
+            <li><span class="footer__link">Serving all of Northern California</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 Noble Boutique Photography. All rights reserved.</p>
+        <p class="footer__location">Folsom, CA &nbsp;·&nbsp; Northern California</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

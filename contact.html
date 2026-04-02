@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Noble Boutique Photography</title>
+  <meta name="description" content="Inquire about newborn, maternity, and family photography sessions with Noble Boutique Photography. Based in Folsom, CA, serving all of Northern California." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ═══════════════════════════════════════════ -->
+  <nav class="nav nav--scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Noble Boutique Photography</a>
+      <ul class="nav__links">
+        <li><a href="gallery.html"      class="nav__link">Portfolio</a></li>
+        <li><a href="about.html"        class="nav__link">About</a></li>
+        <li><a href="testimonials.html" class="nav__link">Kind Words</a></li>
+        <li><a href="contact.html"      class="nav__link nav__link--cta">Begin Your Story</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ MOBILE MENU ══════════════════════════════════════════ -->
+  <div class="mobile-menu" id="mobileMenu">
+    <span class="mobile-menu__close">Close</span>
+    <ul class="mobile-menu__links">
+      <li><a href="gallery.html"      class="mobile-menu__link">Portfolio</a></li>
+      <li><a href="about.html"        class="mobile-menu__link">About</a></li>
+      <li><a href="testimonials.html" class="mobile-menu__link">Kind Words</a></li>
+      <li><a href="contact.html"      class="mobile-menu__link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ═══ PAGE HERO ════════════════════════════════════════════ -->
+  <header class="page-hero" style="margin-top: var(--nav-h);">
+    <div class="page-hero__bg" style="background-image: url('https://picsum.photos/seed/noble-contacthero/1920/800');"></div>
+    <div class="page-hero__content">
+      <span class="eyebrow page-hero__eyebrow">Let's Begin</span>
+      <h1 class="page-hero__title">Begin Your Story</h1>
+    </div>
+  </header>
+
+  <!-- ═══ CONTACT SECTION ══════════════════════════════════════ -->
+  <section class="contact-section section">
+    <div class="container">
+      <div class="contact-section__inner">
+
+        <!-- Left: Info -->
+        <div class="fade-up">
+          <span class="eyebrow">Get in Touch</span>
+          <h2 class="contact-info__title">Every great<br>portrait starts<br>with a conversation.</h2>
+          <p class="contact-info__copy">
+            I take on a limited number of sessions each season to ensure every client receives my
+            full attention and artistry. If you're expecting or planning a family session, I'd love
+            to hear your story.
+          </p>
+          <p class="contact-info__copy">
+            Fill out the form and I'll be in touch within 48 hours to schedule your complimentary
+            consultation.
+          </p>
+
+          <div class="contact-detail">
+            <div class="contact-detail__item">
+              <span class="contact-detail__label">Email</span>
+              <span class="contact-detail__value">hello@nobleboutiquephotography.com</span>
+            </div>
+            <div class="contact-detail__item">
+              <span class="contact-detail__label">Location</span>
+              <span class="contact-detail__value">Folsom, California</span>
+            </div>
+            <div class="contact-detail__item">
+              <span class="contact-detail__label">Service Area</span>
+              <span class="contact-detail__value">All of Northern California</span>
+            </div>
+            <div class="contact-detail__item">
+              <span class="contact-detail__label">Instagram</span>
+              <a
+                href="https://instagram.com/nobleboutiquephotography"
+                target="_blank"
+                rel="noopener"
+                class="contact-detail__value"
+                style="color:var(--gold); border-bottom: 1px solid rgba(201,165,90,0.4);"
+              >
+                @nobleboutiquephotography
+              </a>
+            </div>
+          </div>
+
+          <div class="gold-rule gold-rule--left"></div>
+          <p style="font-family:var(--font-serif); font-size:1.05rem; font-style:italic; color:var(--warm-gray); margin-top:20px; line-height:1.7;">
+            "Sessions typically book 6–12 weeks in advance. For newborn sessions, booking during
+            your second trimester is warmly encouraged."
+          </p>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="fade-up">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="firstName">First Name</label>
+                <input class="form-input" type="text" id="firstName" name="firstName" required placeholder="Jane" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="lastName">Last Name</label>
+                <input class="form-input" type="text" id="lastName" name="lastName" required placeholder="Smith" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="email">Email Address</label>
+              <input class="form-input" type="email" id="email" name="email" required placeholder="jane@example.com" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="phone">Phone Number (optional)</label>
+              <input class="form-input" type="tel" id="phone" name="phone" placeholder="(916) 555-0100" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="sessionType">Type of Session</label>
+              <select class="form-select" id="sessionType" name="sessionType" required>
+                <option value="" disabled selected>Please select&hellip;</option>
+                <option value="newborn">Newborn</option>
+                <option value="maternity">Maternity</option>
+                <option value="maternity-newborn">Maternity + Newborn Bundle</option>
+                <option value="family">Family</option>
+                <option value="other">Other / Not Sure Yet</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="dueDate">Due Date or Preferred Session Window</label>
+              <input class="form-input" type="text" id="dueDate" name="dueDate" placeholder="e.g. August 2026, or Early Fall" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message">Tell Me Your Story</label>
+              <textarea
+                class="form-textarea"
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Share anything you'd like me to know — your family, your vision, your dream session&hellip;"
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="heardAbout">How did you hear about Noble Boutique?</label>
+              <select class="form-select" id="heardAbout" name="heardAbout">
+                <option value="" disabled selected>Please select&hellip;</option>
+                <option value="instagram">Instagram</option>
+                <option value="referral">Friend or Family Referral</option>
+                <option value="google">Google Search</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn--gold form-submit">Send My Inquiry</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ ASSURANCE STRIP ════════════════════════════════════════ -->
+  <section class="section" style="background: var(--charcoal); padding: 72px 0;">
+    <div class="container">
+      <div class="experience__steps stagger" style="grid-template-columns: repeat(3,1fr);">
+        <div class="step">
+          <div class="step__number" style="font-size:2.5rem;">48h</div>
+          <h3 class="step__title">Response Time</h3>
+          <p class="step__copy">I respond to every inquiry personally within 48 hours, often much sooner.</p>
+        </div>
+        <div class="step">
+          <div class="step__number" style="font-size:2.5rem;">Free</div>
+          <h3 class="step__title">Consultation</h3>
+          <p class="step__copy">Your first conversation is always complimentary, with no obligation to book.</p>
+        </div>
+        <div class="step">
+          <div class="step__number" style="font-size:2.5rem;">Ltd.</div>
+          <h3 class="step__title">Availability</h3>
+          <p class="step__copy">Sessions are intentionally limited each season. Early inquiry is encouraged.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <p class="footer__brand-name">Noble Boutique Photography</p>
+          <p class="footer__tagline">Transforming Northern California homes with heirloom art since the first shutter click.</p>
+          <div class="footer__social">
+            <a href="https://instagram.com/nobleboutiquephotography" target="_blank" rel="noopener" class="footer__social-link">Instagram</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer__col-title">Explore</p>
+          <ul class="footer__links">
+            <li><a href="gallery.html"      class="footer__link">Portfolio</a></li>
+            <li><a href="about.html"        class="footer__link">About</a></li>
+            <li><a href="testimonials.html" class="footer__link">Kind Words</a></li>
+            <li><a href="contact.html"      class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Specialties</p>
+          <ul class="footer__links">
+            <li><span class="footer__link">Newborn</span></li>
+            <li><span class="footer__link">Maternity</span></li>
+            <li><span class="footer__link">Family</span></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Location</p>
+          <ul class="footer__links">
+            <li><span class="footer__link">Folsom, California</span></li>
+            <li><span class="footer__link">Serving all of Northern California</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 Noble Boutique Photography. All rights reserved.</p>
+        <p class="footer__location">Folsom, CA &nbsp;·&nbsp; Northern California</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
