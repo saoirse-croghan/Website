@@ -1,0 +1,30 @@
+NOBLE BOUTIQUE PHOTOGRAPHY — IMAGE FILE GUIDE
+=====================================================
+Copy your image files from the "social media" folder on your desktop
+into this /images/ folder, renaming them as listed below.
+
+FILE NAME                  → WHICH IMAGE                                       USED ON
+---------------------------------------------------------------------------------------------------------------------
+hero-home.jpg              → Family of 3 on wooden bridge path (fall leaves, golden sunburst)     Homepage hero
+family-01.jpg              → Family of 3 on wooden bridge path (same — can be same file)          Gallery
+family-02.jpg              → Family of 3 sitting on river rocks (bridge behind)                   Gallery
+family-03.jpg              → Mom holding young son, outdoors, warm greenery background             Gallery / Contact hero
+family-04.jpg              → Family of 3 by lake (mom white dress, dad blue shirt, girl floral)   Gallery / Homepage featured
+maternity-01.jpg           → Maternity couple in lush garden (rose lace dress, cacti background)  Gallery / Homepage featured
+newborn-01.jpg             → Sleeping newborn in mom's arms (close-up, peaceful)                  Gallery / Homepage CTA bg
+newborn-02.jpg             → Baby sitting in woven basket, cream knit cardigan, laughing          Gallery / Homepage featured
+children-01.jpg            → Baby girl in cream cardigan + floral dress, green bow, smiling       Gallery
+children-02.jpg            → Same baby girl leaning on bench                                      Gallery
+children-03.jpg            → Young girl in denim shirt + floral skirt at vintage train            Gallery
+children-04.jpg            → Girl in B&W studio portrait (curly braids, tan outfit)               Gallery
+children-05.jpg            → Toddler girl in denim overalls, hand raised high (studio gray)       Gallery
+wall-art-01.jpg            → Framed print in living room (couple in fall forest, single frame)    Wall Art section
+wall-art-02.jpg            → Triptych canvas wall art (maternity couple) above sofa               Wall Art section
+wall-art-03.jpg            → Single large canvas (family by lake) above sofa                     Wall Art section / About
+about-photographer.jpg     → A photo of YOU, the photographer (not yet provided — needed!)        About page
+
+NOTES:
+- JPG format preferred; PNG also works
+- No size limit — originals are fine, the website will resize them
+- The site is ready to display them the moment you drop the files in this folder
+- You do NOT need to rename them — just copy, rename, drop in

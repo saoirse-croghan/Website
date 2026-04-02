@@ -688,6 +688,21 @@ h1, h2, h3, h4 {
 
 
 /* ============================================
+   WALL MOCKUP SHOWCASE — HOME & ABOUT
+   ============================================ */
+.wall-mockup-section { background: var(--cream); }
+.wall-mockup-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 20px;
+}
+.wall-mockup-item { overflow: hidden; }
+.wall-mockup-img {
+  width: 100%; display: block;
+  transition: transform 0.85s var(--ease);
+}
+.wall-mockup-item:hover .wall-mockup-img { transform: scale(1.02); }
+
+
+/* ============================================
    RESPONSIVE
    ============================================ */
 @media (max-width: 1100px) {
@@ -700,6 +715,7 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 900px) {
+  .wall-mockup-grid { grid-template-columns: 1fr; }
   :root { --pad: 72px; }
   .featured-work__grid { grid-template-columns: 1fr; grid-template-rows: auto; }
   .work-item:first-child { grid-row: auto; }
